@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  magento2:
+    image: magento2
+    build: .
+    ports:
+      - 80:80

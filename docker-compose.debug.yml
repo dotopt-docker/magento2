@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  magento2:
+    image: magento2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
